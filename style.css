@@ -10,3 +10,8 @@ html {
 h1 {
   font-family: "Poetsen One", sans-serif;
 }
+
+.shows{
+  color:rgb(12, 85, 85);
+  text-align: center;
+}
