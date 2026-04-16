@@ -1,8 +1,8 @@
 <!-- Unit 11 Project
 Requirements
-[  ] $() Select by Element, ID AND Class 
+[ yes ] $() Select by Element, ID AND Class 
 [ yes ] Use Three Different jQuery Methods 
-[  ] Add Five CSS Declarations
+[ 1 ] Add Five CSS Declarations
 [ yes ] Include Three Images
 
 Select ONE Additional 
@@ -31,29 +31,39 @@ Select ONE Additional
       <li>
         <h3 id="mem1">gravity falls</h3>
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyaS0bS-31FI0OP7PF0aRylkRS8lU7nosoRqL0PJajXk7wnw4hI933urYOa97cvUCcy5qaFtbhQhOITWzYblbgLFoYWrgIOHo6qedp3ZRCxA&s=10" width="550" >
-        <p>
+        <h4 class="boom">not in order
           
-        </p>
+        </h4>
+        <p></p>
       </li>
 
       <li>
         <h3 id="mem2">steven universe</h3>
         <img src="https://miro.medium.com/1*O_5TP9gXs6x2QfrZTyTODg.jpeg" width="530">
-        <p>More about this memory.</p>
+        <h4 class="boom">not in order</h4>
+        <p></p>
       </li>
 
       <li>
         <h3 id="mem3">ninjago</h3>
         <img src="https://m.media-amazon.com/images/M/MV5BYTkwMTUzMTYtMDk2ZS00MmZjLWI4OGUtOTBhYjViNjg2YzUzXkEyXkFqcGdeQXRyYW5zY29kZS13b3JrZmxvdw@@._V1_QL75_UX500_CR0,0,500,281_.jpg"  >
-        <p>More about this memory</p>
+        <h4 class="boom">not in order</h4>
+        <p></p>
       </li>
     </ol>
+
+    <h5 id="blah">1234567</h5>
+
+   
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   
    <script>
 
-
+$(".boom").text("not in order");
+$("#blah").text("1234567");
+$("h5").css("color","yellow");
+$("p").css("color","purple");
 
 $("h1").html("<u>web development</u>");
 $("p").html(
